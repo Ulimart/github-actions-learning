@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: |
-         echo "$greeting $firstname. Today is $DAY"
+         echo "$greeting $firstname Today is $DAY"
          echo "$testvar"
          echo "$testvar ${{env.testvar}}"
         env: 
