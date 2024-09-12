@@ -13,4 +13,4 @@ jobs:
   steps:
    - name: "print secret from environment"
      run: |
-      echo "SECRET: {{ secrets.SUPER_SECRET }}"
+      echo "SECRET: ${{ secrets.SUPER_SECRET }}"
